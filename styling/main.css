@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    /* outline: solid red; */
+}
+
+body {
+    max-width: 100vw;
+    /* display: flex; */
+    
+}
+header {
+    
+}
+.picture{
+    background-color: #151515;
+    Width: 990px;
+    Height: 800px;
+    
+    
+} 
+
+.hero {
+    width: 540;
+    Height: 800px;
+    padding-left: 450px;
+}
+.picture h1 {
+    height: 176px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.header-paragraph {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    position: absolute;
+    height: 160px;
+    width: 350px;
+    left: 49%;
+    right: 0%;
+    top: calc(50% - 160px/2 - 130px);
+    color: #444444;
+}
+
+.arrow, link {
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    height: 72px;
+}
+.arrow {
+    background-color: #D5966C;
+    justify-content: center;
+    width: 56px;
+    /* height: 72px ; */
+    /* margin-left: 255px; */
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    background-color: #151515;
+    justify-content: space-between;
+    margin-top: 64px;
+    width: 260px;
+
+}
+.link a {
+    color: #FFFFFF;;
+    font-family: 'outfit';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+.link:hover .arrow {
+    transition: all .3s ease-out;
+}
+
+.link:hover {
+    background-color: #D5966C;
+}
+.link:hover .arrow {
+    background-color: #141414;;
+}
+.selection-1 {
+    margin-top: 180px;
+    display: flex;
+    margin-left: 165px;
+    flex-wrap: wrap;
+}
+.image-grid-1 {
+    width: 635px;
+    height: 400px;
+    margin-left: 166px;
+    margin-right: 164px;
+    margin-top: 180px;
+}
+
+.container-one h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    /* margin-left: 165px; */
+    margin-top: 240px;
+}
+
+.paragraph-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    /* margin-left: 165px; */
+    margin-top: 32px;
+}
+
+.selection-2 {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 165px;
+    flex-wrap: wrap;
+}
+
+.image-grid-2 {
+    width: 635px;
+    height: 720px;
+    margin-right: 30px;
+}
+
+.image-grid-3 {
+    width: 445px;
+    height: 313px;
+    /* margin-left: 30px; */
+}
+
+.container-two {
+    background: #151515;
+    width: 445px;
+    height: 377px;
+    margin-top: 343px;
+    margin-left: -445px;
+}
+
+.container-two h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* text-align: center; */
+    margin-top: 60px;
+    margin-left: 8%;
+}
+
+.container-two p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    margin-top: 32px;
+    /* text-align: center; */
+    margin-left: 8%;
+}
+
+.footer {
+    margin-top: 180px;
+    /* width: 1440px; */
+    height: 244px;
+    background: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-main {
+    font-family: 'Big Shoulders Display';
+    /* background: #FFFFFF; */
+    font-weight: 900;
+    margin-left: 165px;
+    height: 58px;
+    color: #FFFFFF;
+}
+
+.footer-middle {
+    font-family: 'Big Shoulders Display';
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+.column {
+    float: left;
+    
+    padding: 17px;
+}
+.row {
+    margin-right: 165px;
+}
