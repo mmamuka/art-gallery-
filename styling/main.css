@@ -116,7 +116,7 @@ header {
     height: 400px;
     margin-left: 166px;
     margin-right: 164px;
-    margin-top: 180px;
+    
 }
 
 .container-one h1 {
@@ -128,7 +128,7 @@ header {
     text-transform: uppercase;
     color: #151515;
     /* margin-left: 165px; */
-    margin-top: 240px;
+   
 }
 
 .paragraph-text {
